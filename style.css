@@ -2,5 +2,36 @@ p{
     color: green;
 }
 body{
-    background-color: white;
+    background-color: rgb(134, 40, 40);
+}
+a{color: brown;}
+p{
+    border: 3px dashed brown;
+    margin-right: 50%;
+    background-color: burlywood;
+}
+table{
+    margin: auto;
+    width: 25%;
+    border-collapse: collapse;
+    border:2px solid rgb(38, 0, 255);
+}
+table,th,td{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+th,td{
+    border: 1px solid black;
+}
+th{
+    background-color: rgb(208, 255, 0);
+}
+td:hover{
+    background-color: rgb(234, 0, 255);
+}
+input{
+    width: 20%;
 }
