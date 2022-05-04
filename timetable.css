@@ -1,8 +1,18 @@
-td:hover{
+td:hover {
     background-color: rgb(164, 0, 154)
 }
 
 tr td {
     margin: 0;
     padding: 0;
+}
+
+.table-striped>tbody>tr:nth-child(2n+1)>td,
+.table-striped>tbody>tr:nth-child(2n+1)>th {
+    background-color: rgb(52, 58, 64);
+}
+
+.table-striped>tbody>tr:nth-child(2n)>td,
+.table-striped>tbody>tr:nth-child(2n)>th {
+    background-color: rgb(62, 68, 74);
 }
